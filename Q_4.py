@@ -15,7 +15,7 @@ def download_and_convert_data(url):
             "id": entry.get("id", ""),
             "nametype": entry.get("nametype", ""),
             "recclass": entry.get("recclass", ""),
-            "mass": entry.get("mass (g)", ""),
+            "mass": entry.get("mass", ""),
             "year": pd.to_datetime(entry.get("year", ""), errors="coerce"),
             "reclat": entry.get("reclat", ""),
             "reclong": entry.get("reclong", "")
