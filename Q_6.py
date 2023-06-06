@@ -37,7 +37,7 @@ plt.show()
 
 # Plot for question 3: Earth meteorites with mass more than 10000 kg
 plt.figure(figsize=(10, 6))
-plt.boxplot(earth_meteorites_mass_more_than_10000kg["mass (g)"] / 1000)  # Convert mass from g to kg
+plt.boxplot(earth_meteorites_mass_more_than_10000kg["mass"] / 1000)  # Convert mass from g to kg
 plt.ylabel("Mass (kg)")
 plt.title("Earth Meteorites with Mass More Than 10000 kg")
 plt.show()
